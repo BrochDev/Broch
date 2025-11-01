@@ -1,22 +1,22 @@
 <div align="center">
 
-<p align="center"> <img src="assets/logo.png" alt="Broch Logo" width="200"> </p>
+<p align="center"> <img src="https://i.ibb.co/WvvsRSbq/241233821.png" alt="Broch Logo" width="200"> </p>
 
 <h1 align="center">Broch</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/jaanque/broch/main" alt="GitHub last commit (branch)">
-  <img src="https://img.shields.io/npm/v/broch" alt="NPM Version">
-  <img src="https://img.shields.io/npm/unpacked-size/broch" alt="NPM Unpacked Size">
-  <img src="https://img.shields.io/npm/l/broch" alt="NPM License">
-  <img src="https://img.shields.io/npm/d18m/broch" alt="NPM Downloads">
+  <img src="https://img.shields.io/github/last-commit/jaanque/broch/main" alt="GitHub last commit (branch)">
+  <img src="https://img.shields.io/npm/v/broch" alt="NPM Version">
+  <img src="https://img.shields.io/npm/unpacked-size/broch" alt="NPM Unpacked Size">
+  <img src="https://img.shields.io/npm/l/broch" alt="NPM License">
+  <img src="https://img.shields.io/npm/d18m/broch" alt="NPM Downloads">
 </p>
 
 <p align="center">
-  <a href="README.md">English</a> |
-  <a href="README.es.md">Español</a> |
-  <a href="README.zh.md">中文</a> |
-  <a href="README.ja.md">日本語</a>
+  <a href="https://github.com/jaanque/broch/blob/main/README.md">English</a> |
+  <a href="https://github.com/jaanque/broch/blob/main/README.es.md">Español</a> |
+  <a href="https://github.com/jaanque/broch/blob/main/README.zh.md">中文</a> |
+  <a href="https://github.com/jaanque/broch/blob/main/README.ja.md">日本語</a>
 </p>
 
 <p align="center"> <strong>Visualize your project's architecture in a simple and interactive way.</strong> </p>
@@ -25,16 +25,10 @@
 - [Main Features](#-main-features)
 - [Installation](#-installation)
 - [Commands](#️-commands)
-  - [map](#map)
-  - [preview](#preview)
-  - [version](#version)
-  - [help](#help)
 - [Configuration](#-configuration)
-- [License](#-license)
+- [License](#-license-mit)
 - [Contributing to Broch](#-contributing-to-broch)
-- [Code of Conduct](#-code-of-conduct)
-- [Quick Commands](#-quick-commands)
-- [Footer Links](#-footer-links)
+- [Code of Conduct](#code-of-conduct)
 
 Broch is a command-line interface (CLI) tool designed to analyze your project's structure and generate an interactive dependency map. With Broch, you can get a clear and graphical view of how your files are interconnected, making it easier to understand, maintain, and debug your code.
 
@@ -120,7 +114,9 @@ Alias:
 broch h
 ```
 
-## 🔧 Configuration (broch.config.json)
+## 🔧 Configuration
+
+### (broch.config.json)
 
 ```json
 {
@@ -262,37 +258,14 @@ To ensure our community is welcoming and respectful, please read and follow our 
 
 Thank you again for your interest in contributing to Broch!
 
-<footer align="center">
-<hr>
+<footer align="center"> <hr>
 
-<p>
-<a href="README.md">English</a> ·
-<a href="README.es.md">Español</a> ·
-<a href="README.zh.md">中文</a> ·
-<a href="README.ja.md">日本語</a>
-</p>
+<p align="center">   <a href="https://github.com/jaanque/broch/blob/main/README.md">English</a> |   <a href="https://github.com/jaanque/broch/blob/main/README.es.md">Español</a> |   <a href="https://github.com/jaanque/broch/blob/main/README.zh.md">中文</a> |   <a href="https://github.com/jaanque/broch/blob/main/README.ja.md">日本語</a> </p>
 
-<p>
-<a href="#-main-features">Features</a> ·
-<a href="#-installation">Installation</a> ·
-<a href="#️-commands">Commands</a> ·
-<a href="#-configuration">Configuration</a> ·
-<a href="#-license">License</a> ·
-<a href="#-contributing-to-broch">Contribution</a> ·
-<a href="CODE_OF_CONDUCT.md">Code of Conduct</a> ·
-<a href="https://github.com/jaanque/broch">Repository</a> ·
-<a href="https://github.com/jaanque/broch/issues">Issues</a> ·
-<a href="https://www.npmjs.com/package/broch">NPM</a>
-</p>
+<p> <a href="#-main-features">Features</a> · <a href="#-installation">Installation</a> · <a href="#️-commands">Commands</a> · <a href="#-configuration">Configuration</a> · <a href="#-license-mit">License</a> · <a href="#-contributing-to-broch">Contribution</a> · <a href="https://www.google.com/search?q=CODE_OF_CONDUCT.md">Code of Conduct</a> · <a href="https://github.com/jaanque/broch">Repository</a> · <a href="https://github.com/jaanque/broch/issues">Issues</a> · <a href="https://www.npmjs.com/package/broch">NPM</a> </p>
 
-<p>
-<strong>Quick commands:</strong>
-<code>broch map</code> · <code>broch preview</code> · <code>broch version</code> · <code>broch help</code>
-</p>
+<p> <strong>Quick commands:</strong> <code>broch map</code> · <code>broch preview</code> · <code>broch version</code> · <code>broch help</code> </p>
 
-<p>
-<small>© 2025 Jan Queralt · MIT License · To contribute or report issues, open an Issue in the repository.</small>
-</p>
-</footer>
+<p> <small>© 2025 Jan Queralt · MIT License · To contribute or report issues, open an Issue in the repository.</small> </p> </footer>
 
 </div>
