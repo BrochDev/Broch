@@ -6,10 +6,10 @@ export function showHelp() {
 ${chalk.bold('B R O C H')}
 
 ${chalk.bold('Uso:')}
-  broch <comando> [opciones]
+  broch <comando>
 
 ${chalk.bold('Comandos:')}
-  ${chalk.cyan('map [directory]')} (alias: m [directory]) - Genera el mapa del directorio
+  ${chalk.cyan('map')}             (alias: m)            - Genera el mapa del directorio
   ${chalk.cyan('preview')}         (alias: p)            - Abre el HTML generado en el navegador
   ${chalk.cyan('version')}         (alias: v)            - Muestra la versión del paquete
   ${chalk.cyan('help')}            (alias: h)            - Muestra esta ayuda

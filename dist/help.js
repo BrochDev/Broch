@@ -11,10 +11,10 @@ function showHelp() {
 ${chalk_1.default.bold('B R O C H')}
 
 ${chalk_1.default.bold('Uso:')}
-  broch <comando> [opciones]
+  broch <comando>
 
 ${chalk_1.default.bold('Comandos:')}
-  ${chalk_1.default.cyan('map [directory]')} (alias: m [directory]) - Genera el mapa del directorio
+  ${chalk_1.default.cyan('map ')}            (alias: m)            - Genera el mapa del directorio
   ${chalk_1.default.cyan('preview')}         (alias: p)            - Abre el HTML generado en el navegador
   ${chalk_1.default.cyan('version')}         (alias: v)            - Muestra la versión del paquete
   ${chalk_1.default.cyan('help')}            (alias: h)            - Muestra esta ayuda

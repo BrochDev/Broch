@@ -16,7 +16,7 @@ interface Command {
 // Estructura de datos con la definición de todos los comandos
 export const commands: Command[] = [
   {
-    name: ['map [directory]', 'm [directory]'],
+    name: ['map', 'm'],
     description: 'Genera el mapa del directorio',
     builder: (yargs) => yargs.positional('directory', {
       describe: 'El directorio a mapear',
