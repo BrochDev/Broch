@@ -1,21 +1,148 @@
 {
   "name": "broch",
   "version": "1.0.0",
+  "title": "Broch - Project Structure and Dependency Visualizer",
+  "description": "CLI tool to generate interactive visual maps of project structures and dependencies.",
+
+  "keywords": [
+    "cli",
+    "command-line",
+    "terminal",
+    "tool",
+    "utility",
+    "typescript",
+    "nodejs",
+    "visualization",
+    "graph",
+    "network",
+    "project-map",
+    "project-visualization",
+    "dependency-map",
+    "dependency-graph",
+    "module-graph",
+    "architecture",
+    "software-architecture",
+    "code-structure",
+    "code-visualization",
+    "repo-map",
+    "repository-visualization",
+    "project-insight",
+    "project-analysis",
+    "project-diagram",
+    "visual-mapping",
+    "diagram",
+    "flowchart",
+    "system-map",
+    "code-map",
+    "structure-map",
+    "network-graph",
+    "interactive-graph",
+    "data-visualization",
+    "map-generator",
+    "project-explorer",
+    "dependency-visualizer",
+    "code-analysis",
+    "static-analysis",
+    "visual-tool",
+    "developer-tool",
+    "devtool",
+    "project-docs",
+    "architecture-diagram",
+    "graph-visualizer",
+    "project-overview",
+    "code-insight",
+    "team-collaboration",
+    "documentation",
+    "open-source",
+    "broch",
+
+    "herramienta-cli",
+    "linea-de-comandos",
+    "terminal",
+    "utilidad",
+    "typescript",
+    "visualizacion",
+    "grafo",
+    "red",
+    "mapa-de-proyecto",
+    "visualizacion-de-proyecto",
+    "mapa-de-dependencias",
+    "grafo-de-dependencias",
+    "modulos",
+    "arquitectura-de-software",
+    "estructura-de-codigo",
+    "visualizacion-de-codigo",
+    "analisis-de-proyecto",
+    "diagrama",
+    "flujo",
+    "mapa-de-sistema",
+    "mapa-de-codigo",
+    "explorador-de-proyecto",
+    "analizador-de-codigo",
+    "documentacion",
+    "codigo-abierto",
+    "herramienta-desarrollador"
+  ],
+
+  "homepage": "https://github.com/BrochDev/Broch#readme",
+
+  "bugs": {
+    "url": "https://github.com/BrochDev/Broch/issues"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrochDev/Broch.git"
+  },
+
+  "author": {
+    "name": "Jan Queralt",
+    "email": "janqueraltposino22@gmail.com",
+    "url": "https://github.com/BrochDev/Broch"
+  },
+
+  "contributors": [
+    {
+      "name": "Jan Queralt",
+      "email": "janqueraltposino22@gmail.com"
+    }
+  ],
+
+  "license": "MIT",
+
+  "type": "commonjs",
+
   "main": "dist/index.js",
+
   "bin": {
     "broch": "dist/index.js"
   },
-  "scripts": {
-    "start": "npm run build && node dist/index.js",
-    "build": "tsc",
-    "dev": "ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "type": "commonjs",
-  "description": "",
+
+  "types": "dist/index.d.ts",
+
+  "sideEffects": false,
+
+  "engines": {
+    "node": ">=16"
+  },
+
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node src/index.ts",
+    "start": "npm run build && node dist/index.js",
+    "lint": "eslint \"src/**/*.ts\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint && npm test && npm run build"
+  },
+
   "dependencies": {
     "@types/boxen": "^2.1.0",
     "@types/cli-progress": "^3.11.6",
@@ -33,5 +160,25 @@
     "typescript": "^5.9.3",
     "vis-network": "^10.0.2",
     "yargs": "^18.0.0"
+  },
+
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "@types/jest": "^29.5.12"
+  },
+
+  "peerDependencies": {},
+
+  "optionalDependencies": {},
+
+  "publishConfig": {
+    "access": "public"
+  },
+
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/jaanque"
   }
 }
